@@ -51,6 +51,6 @@ class FrogsController < ApplicationController
     end
 
     def frog_params
-      params.require(:frog).permit(:name, :color, :pond_id)
+      params.require(:frog).permit(:name, :color, :pond_id, :tadpole_id)
     end
 end
